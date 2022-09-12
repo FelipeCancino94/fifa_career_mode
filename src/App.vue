@@ -1,10 +1,10 @@
 <template>
-  <nav>
+  <!-- <nav>
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link> |
     <router-link to="/manager">Career Manager</router-link> |
     <router-link to="/player">Career Player</router-link> |
-  </nav>
+  </nav> -->
   <router-view/>
 </template>
 
@@ -16,17 +16,8 @@
   text-align: center;
   color: #2c3e50;
 }
-
-nav {
-  padding: 30px;
+body {
+  margin: 0;
 }
 
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-nav a.router-link-exact-active {
-  color: #42b983;
-}
 </style>
